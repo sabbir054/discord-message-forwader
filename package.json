@@ -1,0 +1,21 @@
+{
+  "name": "scrape_discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "SabbiR",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.8",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10",
+    "puppeteer": "^24.8.2",
+    "puppeteer-core": "^24.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
